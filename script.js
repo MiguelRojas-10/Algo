@@ -21,6 +21,7 @@ navButtons.forEach(button => {
 const bgMusic = document.getElementById('bg-music');
 const musicToggle = document.getElementById('music-toggle');
 let isPlaying = false;
+bgMusic.volume = 0.10;
 
 musicToggle.addEventListener('click', () => {
     if (isPlaying) {
@@ -34,7 +35,7 @@ musicToggle.addEventListener('click', () => {
 });
 
 // 3. EFECTO MÁQUINA DE ESCRIBIR
-const message = "Te preparé este rincón en la web para recordar lo especial que eres para mí. ¡Explora las pestañas de arriba! ❤️";
+const message = "Te amo mucho mi amorcito, perdon por todo lo malo que te hice, ve a las pestañas de arriba para ver la magia! ❤️";
 const typewriterElement = document.getElementById('typewriter-text');
 const btn = document.getElementById('action-btn');
 let letterIndex = 0;
@@ -65,7 +66,7 @@ function typeWriter() {
 
 // 4. CONTADOR DE TIEMPO JUNTOS
 // Ajusta esta fecha a cuando iniciaron su relación (Año, Mes [0-11], Día)
-const startDate = new Date(2023, 0, 1); // Ejemplo: 1 de Enero de 2023
+const startDate = new Date(2025, 2, 25); // Ejemplo: 1 de Enero de 2023
 
 function updateTimer() {
     const now = new Date();
